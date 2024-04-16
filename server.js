@@ -7,7 +7,7 @@ const { sumFunction } = require('./utils');
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Server is running');
+  res.send('Server is running 1');
 });
 
 app.post('/sum', (req, res) => {
